@@ -1,0 +1,4 @@
+./WILEY_EI_Conversion.py ~/Data/data/Metabolomics/Libraries/WILEY/MSP/w11del.MSP ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11del.mgf ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11del.tsv ./inchi_mapping.tsv
+./WILEY_EI_Conversion.py ~/Data/data/Metabolomics/Libraries/WILEY/MSP/w11main1.MSP ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11main1.mgf ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11main1.tsv ./inchi_mapping.tsv
+./WILEY_EI_Conversion.py ~/Data/data/Metabolomics/Libraries/WILEY/MSP/w11main2.MSP ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11main2.mgf ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11main2.tsv ./inchi_mapping.tsv
+./WILEY_EI_Conversion.py ~/Data/data/Metabolomics/Libraries/WILEY/MSP/w11re.MSP ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11re.mgf ~/Data/data/Metabolomics/Libraries/WILEY/Library_Creation/w11re.tsv ./inchi_mapping.tsv
