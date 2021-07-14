@@ -1,0 +1,1 @@
+../../../../python_template/ming_sptxt_library.py

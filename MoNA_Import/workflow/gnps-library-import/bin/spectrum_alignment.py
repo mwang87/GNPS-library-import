@@ -1,0 +1,1 @@
+../../../../python_template/spectrum_alignment.py

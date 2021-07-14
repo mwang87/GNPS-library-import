@@ -1,0 +1,20 @@
+<toolset>
+
+    <pathSet base="anaconda3/bin">
+        <toolPath tool="mona_import" path="python3.5"/>
+    </pathSet>
+    <pathSet base="gnps-library-import">
+        <pathVar name="mona_import.script" path="mona_import.py"/>
+    </pathSet>
+
+    <tool name="mona_import">
+        <require name="flowParams"             type="file"/>
+        <produce name="mona_update" type="folder"/>
+
+        <execution env="binary" argConvention="adhoc">
+            <arg pathRef="mona_import.script"/>
+            <arg valueRef="flowParams"/>
+            <arg valueRef="mona_update"/>
+        </execution>
+    </tool>
+</toolset>
