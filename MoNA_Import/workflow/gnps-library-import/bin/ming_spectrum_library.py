@@ -1,1 +1,0 @@
-../../../../python_template/ming_spectrum_library.py

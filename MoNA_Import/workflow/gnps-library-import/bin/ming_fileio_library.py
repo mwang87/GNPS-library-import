@@ -1,1 +1,0 @@
-../../../../python_template/ming_fileio_library.py
