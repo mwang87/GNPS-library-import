@@ -27,6 +27,8 @@ def parse_spectrum(spectrum_dict):
 
     if ionmode == "positive":
         ionmode = "Positive"
+    if ionmode == "negative":
+        ionmode = "Negative"
 
     adduct = adduct[1:-2]
 
