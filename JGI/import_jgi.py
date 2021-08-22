@@ -78,7 +78,7 @@ for new_library_spectrum in new_library_filtered:
     output_spectrum_count += 1
     new_library_spectrum.spectrum.scan = output_spectrum_count
     output_mgf_file.write(new_library_spectrum.get_mgf_string())
-    output_table_file.write(new_library_spectrum.get_gnps_library_creation_tsv_string("library_mgf.mgf").rstrip() + "\n")
+    output_table_file.write(new_library_spectrum.get_gnps_library_creation_tsv_string(args.output_mgf).rstrip() + "\n")
 
 output_table_file.close()
 output_mgf_file.close()
